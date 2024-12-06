@@ -1,0 +1,4 @@
+-- dataset are meals, stock, orders
+
+select count(*)
+from orders 
