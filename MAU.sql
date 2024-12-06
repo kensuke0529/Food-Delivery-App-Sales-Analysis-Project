@@ -13,7 +13,7 @@ FROM reg_dates
 GROUP BY month
 ORDER BY month ASC;
 
---MAU
+--MAU growth rate
 WITH mau AS (
   SELECT
     DATE_TRUNC('month', order_date) :: DATE AS month,
@@ -29,7 +29,6 @@ mau_with_lag AS (
   FROM mau)
 
 SELECT
-  -- Calculate the MoM MAU growth rates
   month,
   ROUND((mau - last_mau):: numeric/ last_mau ,2) AS growth_rate
 FROM mau_with_lag
