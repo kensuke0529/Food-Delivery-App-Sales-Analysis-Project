@@ -32,3 +32,19 @@ SELECT
     COUNT(distinct user_id) as users 
 from user_revenue 
 GROUP BY grouped_revenue
+
+--percentile
+with user_revenue as (
+    select
+        o.user_id,
+        SUM(m.meal_price * o.order_quantity) as revenue 
+    from meals as m 
+    join orders as o 
+    on m.meal_id = o.meal_id
+    GROUP BY o.user_id
+)
+select 
+    ROUND(PERCENTILE_CONT(0.25) within group (order by revenue asc) :: numeric,2) as percentile_25,
+    ROUND(PERCENTILE_CONT(0.50) within group (order by revenue asc) :: numeric,2) as avg,
+    ROUND(PERCENTILE_CONT(0.75) within group (order by revenue asc) :: numeric,2) as percentile_75
+from user_revenue
