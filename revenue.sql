@@ -27,6 +27,16 @@ ON m.meal_id = o.meal_id
 GROUP BY month
 ORDER BY month ASC;
 
+-- revenue by week
+SELECT 
+    date_Trunc('week',o.order_date) as week,
+    SUM(m.meal_price * o.order_quantity) as revenue
+FROM meals as m 
+JOIN orders as o
+ON m.meal_id = o.meal_id
+GROUP BY week
+ORDER BY week ASC;
+
 -- cost b meal_id
 SELECT
     m.meal_id,

@@ -48,3 +48,21 @@ select
     ROUND(PERCENTILE_CONT(0.50) within group (order by revenue asc) :: numeric,2) as avg,
     ROUND(PERCENTILE_CONT(0.75) within group (order by revenue asc) :: numeric,2) as percentile_75
 from user_revenue
+
+-- avg_revenue by order number
+WITH order_count as (
+    select 
+        o.user_id,
+        COUNT(distinct o.order_id ) as orders,
+        avg(m.meal_price * o.order_quantity) as revenue 
+    from orders as o
+    join meals as m 
+    on m.meal_id = o.meal_id
+    group by o.user_id
+)
+select 
+    orders,
+    avg(revenue) as avg_revenue
+from order_count
+group by orders
+ORDER BY orders;
