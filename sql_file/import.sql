@@ -30,3 +30,5 @@ FROM PROGRAM 'curl "https://assets.datacamp.com/production/repositories/4016/dat
 
 COPY stock
 FROM PROGRAM 'curl "https://assets.datacamp.com/production/repositories/4016/datasets/10d9ad146a85010d836cfc93870aa464951f0640/stock.csv"' (DELIMITER ',', FORMAT CSV);
+
+select * FROM meals as m JOIN orders as o on m.meal_id =o.meal_id 
