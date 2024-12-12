@@ -9,7 +9,7 @@ Delivr is a fictional food delivery startup created for practice purposes. This 
 
 - **SQL**: Data extraction and aggregation from relational databases.
 - **Python**:
-  - **Pandas**: Data cleaning and transformation.
+  - **Pandas**: Data transformation.
   - **Matplotlib/Seaborn**: Data visualization.
   - **Jupyter Notebook**: Interactive data analysis.
 
