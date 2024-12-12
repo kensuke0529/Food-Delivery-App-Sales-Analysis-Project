@@ -18,20 +18,8 @@ Stores basic information about the meals offered.
 | `meal_cost`   | Cost of producing the meal     |
 | `eatery`      | Name of the restaurant offering the meal |
 
----
 
-### 2. Stock
-Tracks the inventory levels of meals.
-
-| Column Name       | Description                     |
-|-------------------|---------------------------------|
-| `stocking_date`   | Date when the stock was updated |
-| `meal_id`         | Unique identifier for the meal  |
-| `stocked_quantity`| Quantity of the meal in stock   |
-
----
-
-### 3. Orders
+### 2. Orders
 Manages user order data.
 
 | Column Name       | Description                     |
@@ -42,4 +30,22 @@ Manages user order data.
 | `meal_id`         | Unique identifier for the meal ordered |
 | `order_quantity`  | Quantity of the meal ordered    |
 
+### 1. **Weekly Revenue and Profit Analysis**
+- **Goal**: Measure weekly growth in sales and profit.
+- **Key Insight**: Steady growth in both metrics, indicating a healthy market expansion.
 
+### 2. **Profit Margin by Meal**
+- **Goal**: Identify the most and least profitable menu items.
+- **Key Insight**: High-profit items (e.g., Meal ID 18) can be promoted further, while low-margin items (e.g., Meal ID 4) need improvement.
+
+### 3. **Day-of-Week Order and Profit Analysis**
+- **Goal**: Evaluate whether the day of the week affects orders and profitability.
+- **Key Insight**: Weekends show slightly higher performance, but no significant weekday trend.
+
+### 4. **Retention Rate**
+- **Goal**: Analyze weekly user retention to understand customer loyalty.
+- **Key Insight**: Retention trends upward overall, with occasional dips requiring further investigation.
+
+### 5. **ARPU (Average Revenue Per User)**
+- **Goal**: Assess the average revenue generated per user each week.
+- **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
