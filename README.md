@@ -51,3 +51,7 @@ Manages user order data.
 ### 5. **ARPU (Average Revenue Per User)**
 - **Goal**: Assess the average revenue generated per user each week.
 - **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
+
+## Future Improvements
+- Expand the analysis to include external factors like marketing campaigns or weather data.
+
