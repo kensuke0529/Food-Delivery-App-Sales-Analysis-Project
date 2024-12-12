@@ -39,7 +39,7 @@ Manages user order data.
 | `meal_id`         | Unique identifier for the meal ordered |
 | `order_quantity`  | Quantity of the meal ordered    |
 
-## Database Schema Overview
+## Features
 
 ### 1. **Weekly Revenue and Profit Analysis**
 - **Goal**: Measure weekly growth in sales and profit.
