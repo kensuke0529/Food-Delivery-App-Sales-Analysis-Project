@@ -37,16 +37,6 @@ ON m.meal_id = o.meal_id
 GROUP BY week
 ORDER BY week ASC;
 
--- cost b meal_id
-SELECT
-    m.meal_id,
-    SUM(s.stocked_quantity * m.meal_cost) as cost
-FROM meals as m 
-JOIN stock as s 
-ON m.meal_id = s.meal_id
-GROUP BY m.meal_id 
-ORDER BY cost DESC;
-
 -- profit by meal_id
 WITH revenue as (
     SELECT 
@@ -78,7 +68,6 @@ ORDER BY profit DESC;
 
 
 -- profit by each week
--- profit by meal_id
 WITH revenue AS (
     SELECT 
         date_trunc('week', o.order_date) AS week,
@@ -139,7 +128,7 @@ ON r.meal_id = c.meal_id
 ORDER BY r.meal_id DESC;
 */
 
-
+-- profit by each meal_id
 WITH revenue AS (
     SELECT 
         m.meal_id,

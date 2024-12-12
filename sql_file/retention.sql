@@ -18,8 +18,7 @@ AND previous.month = (current.month -INTERVAL'1 month')
 GROUP BY previous.month
 ORDER BY previous.month ASC;
 
-#weekly
-
+-- weekly
 WITH user_weekly_activity AS (
   SELECT DISTINCT
     DATE_TRUNC('week', order_date) :: DATE AS week,
