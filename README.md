@@ -38,7 +38,7 @@ Manages user order data.
 
 ### 2. **Profit Margin by Meal**
 - **Goal**: Identify the most and least profitable menu items.
-- **Key Insight**: High-profit items (e.g., Meal ID 18) can be promoted further, while low-margin items (e.g., Meal ID 4) need improvement.
+- **Key Insight**: High-profit item can be promoted further, while low-margin items need improvement.
 
 ### 3. **Day-of-Week Order and Profit Analysis**
 - **Goal**: Evaluate whether the day of the week affects orders and profitability.
