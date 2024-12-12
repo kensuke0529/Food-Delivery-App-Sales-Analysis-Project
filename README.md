@@ -62,6 +62,10 @@ Manages user order data.
 - **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
 
 ## Visualization Examples:
+![Profit by days of week](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(1).png)
+![Weekly revenue](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download.png)
+![Order nubmer](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(2).png)
+![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(3).png)
 
 ## Future Improvements
 - Expand the analysis to include external factors like marketing campaigns or weather data.
