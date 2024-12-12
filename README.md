@@ -4,6 +4,15 @@
 
 Delivr is a fictional food delivery startup created for practice purposes. This project is designed to help users enhance their SQL skills by working with a simulated real-world scenario. The dataset used in this project is sourced from DataCamp and serves as an educational tool to explore database management, querying, and analysis.
 
+
+## Languages and Tools:
+
+SQL: Data extraction and aggregation from relational databases.
+Python:
+Pandas: Data cleaning and transformation.
+Matplotlib/Seaborn: Data visualization.
+Jupyter Notebook: Interactive data analysis.
+
 ## Database Schema Overview
 
 This project uses three main tables to manage Delivr's food delivery operations.
@@ -51,6 +60,8 @@ Manages user order data.
 ### 5. **ARPU (Average Revenue Per User)**
 - **Goal**: Assess the average revenue generated per user each week.
 - **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
+
+## Visualization Examples:
 
 ## Future Improvements
 - Expand the analysis to include external factors like marketing campaigns or weather data.
