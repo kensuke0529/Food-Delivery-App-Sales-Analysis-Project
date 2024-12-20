@@ -1,4 +1,4 @@
-#  Delivery Analysis Project 📊
+#  Delivery Analysis Project 
 
 
 ## Overview
@@ -50,13 +50,22 @@ Manages user order data.
 
 #### Revenue increased by 3493% from May to December 2018. The highest growth happened in July with a 40.7% increase, followed by significant rises in September (28.5%) and October (26.8%). However, June and December decreased by -5.6% and -3.9%, respectively. Despite these declines, the overall trend was positive, reflecting strong growth throughout the period.
 
-### 2. **Profit Margin by Meal**
+### 2. **Profit by each Meal**
 - **Goal**: Identify the most and least profitable menu items.
 - **Key Insight**: High-profit item can be promoted further, while low-margin items need improvement.
+  
+![Weekly revenue](https://github.com/kensuke0529/delivery_analysis/blob/main/images/profit.png)
+
+#### Per-profit measures the profit per unit sold for each meal by dividing the total profit by the total quantity sold. Meal 11 has the highest per-profit of 4.75, which generates the most profit per item sold, while Meal 0 has the lowest per-profit of 2, indicating it generates the least profit per unit.
+
 
 ### 3. **Day-of-Week Order and Profit Analysis**
 - **Goal**: Evaluate whether the day of the week affects orders and profitability.
 - **Key Insight**: Weekends show slightly higher performance, but no significant weekday trend.
+![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/output.png)
+
+#### Wednesday was the least profitable day and Sunday was the most profitable, 24.7% more than Wednesday. Weekend profits were 11.8% higher than the weekday average.
+
 
 ### 4. **Retention Rate**
 - **Goal**: Analyze weekly user retention to understand customer loyalty.
