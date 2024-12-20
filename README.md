@@ -63,6 +63,7 @@ Manages user order data.
 - **Key Insight**: Retention trends upward overall, with occasional dips requiring further investigation.
 ![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(3).png)
 
+#### From May to November 2018, the retention rate changed significantly on a weekly basis, with both increases and decreases. The highest weekly increase occurred from 08-06 to 08-13 (54.6%), while the largest decrease happened from 06-18 to 06-25 (-32.4%). The overall trend showed periods of growth, particularly in August, October, and November, with the retention rate improving significantly toward the end.
 
 ### 5. **ARPU (Average Revenue Per User)**
 - **Goal**: Assess the average revenue generated per user each week.
