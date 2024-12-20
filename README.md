@@ -4,6 +4,8 @@
 ## Overview
 
 Delivr is a fictional food delivery startup created for practice purposes. This project is designed to help users enhance their SQL skills by working with a simulated real-world scenario. The dataset used in this project is sourced from DataCamp and serves as an educational tool to explore database management, querying, and analysis. 
+
+Through the analysis, I analyzed weekly revenue and profit, profit for each meal, day of the week profit, retention rate and ARPU (average revenue per user) as KPIs to determine trends and performance. 
 - [View code in Jupyter Notebook](https://github.com/kensuke0529/delivery_analysis/blob/main/csv_file/visualization.ipynb)
 
 ## Languages and Tools
@@ -53,13 +55,13 @@ Manages user order data.
 ### 2. **Profit by each Meal**
 - **Goal**: Identify the most and least profitable menu items.
 - **Key Insight**: High-profit item can be promoted further, while low-margin items need improvement.
-  
+
 ![Weekly revenue](https://github.com/kensuke0529/delivery_analysis/blob/main/images/profit.png)
 
 #### Per-profit measures the profit per unit sold for each meal by dividing the total profit by the total quantity sold. Meal 11 has the highest per-profit of 4.75, which generates the most profit per item sold, while Meal 0 has the lowest per-profit of 2, indicating it generates the least profit per unit.
 
 
-### 3. **Day-of-Week Order and Profit Analysis**
+### 3. **Day-of-Week Profit Analysis**
 - **Goal**: Evaluate whether the day of the week affects orders and profitability.
 - **Key Insight**: Weekends show slightly higher performance, but no significant weekday trend.
 ![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/output.png)
@@ -77,10 +79,10 @@ Manages user order data.
 ### 5. **ARPU (Average Revenue Per User)**
 - **Goal**: Assess the average revenue generated per user each week.
 - **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
+ 
+![Order nubmer](https://github.com/kensuke0529/delivery_analysis/blob/main/images/arpu.png)
 
-  
-![Order nubmer](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(2).png)
-
+#### The ARPU data shows steady overall growth of approximately 47.0%, starting at 22.7 and peaking at 33.7 in December. Seasonal trends are evident, with ARPU surging during November to December and dropping slightly during July (06-07 to 06-11) and early October (10-01 to 10-15). Weekly fluctuations indicate periodic highs and lows, but ARPU stabilized above 30.0 in late 2018.
 
 ## Future Improvements
 - Expand the analysis to include external factors like marketing campaigns or weather data.
