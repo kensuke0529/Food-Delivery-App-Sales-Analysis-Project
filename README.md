@@ -47,7 +47,8 @@ Manages user order data.
 - **Key Insight**: Steady growth in both metrics, indicating a healthy market expansion.
 
 ![Weekly revenue](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download.png)
-** Revenue increased by 3493% from May to December 2018. The highest growth happened in July with a 40.7% increase, followed by significant rises in September (28.5%) and October (26.8%). However, June and December decreased by -5.6% and -3.9%, respectively. Despite these declines, the overall trend was positive, reflecting strong growth throughout the period.
+
+## Revenue increased by 3493% from May to December 2018. The highest growth happened in July with a 40.7% increase, followed by significant rises in September (28.5%) and October (26.8%). However, June and December decreased by -5.6% and -3.9%, respectively. Despite these declines, the overall trend was positive, reflecting strong growth throughout the period.
 
 ### 2. **Profit Margin by Meal**
 - **Goal**: Identify the most and least profitable menu items.
