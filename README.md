@@ -48,7 +48,7 @@ Manages user order data.
 
 ![Weekly revenue](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download.png)
 
-## Revenue increased by 3493% from May to December 2018. The highest growth happened in July with a 40.7% increase, followed by significant rises in September (28.5%) and October (26.8%). However, June and December decreased by -5.6% and -3.9%, respectively. Despite these declines, the overall trend was positive, reflecting strong growth throughout the period.
+#### Revenue increased by 3493% from May to December 2018. The highest growth happened in July with a 40.7% increase, followed by significant rises in September (28.5%) and October (26.8%). However, June and December decreased by -5.6% and -3.9%, respectively. Despite these declines, the overall trend was positive, reflecting strong growth throughout the period.
 
 ### 2. **Profit Margin by Meal**
 - **Goal**: Identify the most and least profitable menu items.
@@ -61,12 +61,16 @@ Manages user order data.
 ### 4. **Retention Rate**
 - **Goal**: Analyze weekly user retention to understand customer loyalty.
 - **Key Insight**: Retention trends upward overall, with occasional dips requiring further investigation.
+![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(3).png)
+
 
 ### 5. **ARPU (Average Revenue Per User)**
 - **Goal**: Assess the average revenue generated per user each week.
 - **Key Insight**: ARPU increases over time but shows seasonal fluctuations.
+
+  
 ![Order nubmer](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(2).png)
-![Weekly retention rate](https://github.com/kensuke0529/delivery_analysis/blob/main/images/download%20(3).png)
+
 
 ## Future Improvements
 - Expand the analysis to include external factors like marketing campaigns or weather data.
