@@ -6,7 +6,7 @@
 Delivr is a fictional food delivery startup created for practice purposes. The dataset used in this project is sourced from DataCamp.
 
 Through the analysis, I analyzed weekly revenue and profit, profit for each meal, day of the week profit, retention rate and ARPU (average revenue per user) as KPIs to determine trends and performance using SQL, Python. 
-\
+
 - [View code in Jupyter Notebook](https://github.com/kensuke0529/delivery_analysis/blob/main/csv_file/visualization.ipynb)
 
 ## Languages and Tools
